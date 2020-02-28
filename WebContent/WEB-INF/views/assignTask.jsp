@@ -19,7 +19,7 @@
 	padding-left: 8px;
 }
 body {
-    background-color: lightblue;
+    background-color: cyan;
 }
 </style>
 
