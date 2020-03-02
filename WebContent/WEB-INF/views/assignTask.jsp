@@ -25,21 +25,21 @@ body {
 
 <title>ASSIGN PROJECT TASK</title>
 </head>
-<body style="background-color: azure;">
+<body style="background-color: lightsalmon;">
 	<div align="center" class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-header"></div>
 		<div class="header">
-			<h3 style="color: azure;font-family: cursive;">ASSIGNMENT OF TASKS</h3>
+			<h3 style="color: azure;font-family: Ariel;font-size:30px">ASSIGNMENT OF TASKS</h3>
 		</div>
 	</div>
 	<br><br><br><br>
 	
-	<div align="center" style="background-color: azure;">
+	<div align="center" style="background-color: lightsalmon;">
 		<table>
 			<tr>
-				<td style="color: darkblue;font-family: cursive;"><b>Select Project: </b>
+				<td style="color: darkblue;font-family:Times; font-size:15px;"><b>Select Project: </b>
 					<select id=selectbox1 class="form-control" style="background-color: azure;color: darkblue;">
-						<option>All projects**</option>
+						<option>All projects*</option>
 							<c:forEach var="list" items="${projectDetails}" varStatus="status">
 								<option id=project>${list.projectName}</option>
 							</c:forEach>
@@ -47,22 +47,22 @@ body {
 				</td>
 			</tr>
 			<tr>
-				<td style="color: darkblue;font-family: cursive;"><b>Description*: </b>
-					<input type="text" placeholder = "description" id="description" class="form-control" style="background-color: azure;color: darkblue;"/>
+				<td style="color: darkblue;font-family:Times; font-size:15px;"><b>Description*: </b>
+					<input type="text" placeholder = "Description" id="description" class="form-control" style="background-color: azure;color: darkblue;"/>
 				</td>
 			</tr>
 			<tr>
-				<td style="color: darkblue;font-family: cursive;"><b>Enter start Date: </b>
+				<td style="color: darkblue;font-family:Times; font-size:15px;"><b>Enter start Date: </b>
 					<input type="text" class="form-control" id="checkindate" style="background-color: azure;color: darkblue;" onkeypress="return isValidDate(event);"/>
 				</td>
 			</tr>
 			<tr>
-				<td style="color: darkblue;font-family: cursive;"><b>Enter end Date: </b>
+				<td style="color: darkblue;font-family:Times; font-size:15px;"><b>Enter end Date: </b>
 					<input type="text" class="form-control" id="checkoutdate" style="background-color: azure;color: darkblue;" onkeypress="return isValidDate(event);"/>
 				</td>
 			</tr>
 			<tr>
-				<td style="color: darkblue;font-family: cursive;"><b>Employees: </b>
+				<td style="color: darkblue;font-family:Times; font-size:15px;"><b>Employees: </b>
 					<select id="result" class="form-control" style="background-color: azure;color: darkblue;">
 						<option>Employees.. </option>
 					</select>
