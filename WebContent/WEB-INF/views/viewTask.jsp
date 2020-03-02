@@ -48,7 +48,7 @@
 				</c:forEach>
 			</select>
 		
-			<div id="result" style="color: darkblue;background-color: azure;"></div>
+			<div id="result" style="color: darkblue;background-color: wheat;"></div>
 		
 			<table id="table" class="hidden" border=1>
 				<tr>
