@@ -9,12 +9,12 @@
 
 <body style="background-color: azure;">
 	<div align="center" class="header">
-		<h2 style="background-color: Violet;font-family: georgia;color: darkblue;">MANAGE TASK</h2>
+		<h2 style="background-color: Violet;font-family: georgia;color: black;">MANAGE TASK</h2>
 	</div>
 	<div align="center" class="rest">
-		<h1 style="background-color: Violet;font-family: georgia;color: darkblue;">PROJECT TASK ASSIGNMENT</h1>
-		<h2 style="background-color: Violet;font-family: cursive;color: darkblue;"><em><a href ="${pageContext.servletContext.contextPath}/assignTask">ASSIGN TASK</a></em></h2>
-		<h2 style="background-color: Violet;font-family: cursive;color: darkblue;"><em><a href ="${pageContext.servletContext.contextPath}/viewTaskProjects">VIEW TASK</a></em></h2>
+		<h1 style="background-color: Violet;font-family: georgia;color: red;">TASK ASSIGNMENT</h1>
+		<h2 style="background-color: Violet;font-family: Times New Roman;color: tomato;"><em><a href ="${pageContext.servletContext.contextPath}/assignTask">ASSIGN TASK</a></em></h2>
+		<h2 style="background-color: Violet;font-family: Times New Roman;color: tomato;"><em><a href ="${pageContext.servletContext.contextPath}/viewTaskProjects">VIEW TASK</a></em></h2>
 	</div>
 </body>
 </html>
