@@ -2,7 +2,7 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<html style="background-color: green;">
+<html style="background-color: lightsalmon;">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,16 +30,16 @@
 		</style>
 	</head>
 	
-	<body style="background-color: azure;">
+	<body style="background-color: lightsalmon;">
 		<div align="center" class="navbar navbar-inverse navbar-fixed-top marginDisplay">
 			<div class="navbar-header"></div>
 			<div class="header">
-				<h3 style="color: azure;font-family: cursive;">VIEW TASK</h3>
+				<h3 style="color: azure;font-family: Ariel;font-size:30px;">VIEW TASK</h3>
 			</div>
 		</div>
 		
-		<div align = "center" style="color: darkblue;margin-top: 100px;background-color: azure;">
-			<label style="font-family: cursive;">Select Project:</label>
+		<div align = "center" style="color: darkblue;margin-top: 100px;background-color: lightsalmon;">
+			<label style="font-family: Times;font-size:20px;">Select Project:</label>
 			<select class = "form-control display" id=selectbox style="background-color: azure;color: darkblue;">
 				<p>Filter by projects</p>
 				<option id="project" style="font-family: cursive;" disabled="disabled" selected="selected">Select</option>
